@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "moduleResolution": "Node",
+    "module": "ESNext",
+    "target": "ESNext",
+    "allowJs": true,
+    "outDir": "dist",
+    "jsx": "react-jsx",
+    "sourceMap": true
+  },
+  "include": [
+    "src",
+    "types/global.d.ts",
+    "./.eslintrc.js",
+    "script/getApiCallDeclaresFromPage.js",
+    "./webpack.config.js",
+    "postcss.config.js",
+    "jest.config.js"
+  ],
+  "exclude": [
+    "node_modules",
+    "coverage",
+    "dist"
+  ]
+}
